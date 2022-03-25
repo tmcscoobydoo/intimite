@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intimité</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title><img src="images/intimité.png"></title>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="shoppingCart.js"></script>
+    
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><img src="images/intimité.png"style="
+        width: 78px;
+		height: 70px;
+        "alt=""></a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="shopping-cart.html" class="fas fa-shopping-cart"></a>
+        <a href="#login" class="fas fa-user"></a>
+    </div>
+    
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+            <div class="content">
+                <span>nike red shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>be ready to run.</p>
+                <a href="shopping-cart.html" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/home-shoe-1.png" class="shoe" alt="">
+                <img src="images/home-text-1.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>nike blue shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>be ready to run.</p>
+                <a href="shopping-cart.html" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/home-shoe-2.png" class="shoe" alt="">
+                <img src="images/home-text-2.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            <div class="content">
+                <span>nike yellow shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>be ready to run.</p>
+                <a href="shopping-cart.html" class="btn">add to cart</a>
+            </div>
+            <div class="image">
+                <img src="images/home-shoe-3.png" class="shoe" alt="">
+                <img src="images/home-text-3.png" class="text" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- service section starts  -->
+
+<section class="service">
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>fast delivery</h3>
+            <p>to Nabeul and Mahdia</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-undo"></i>
+            <h3>10 days replacements</h3>
+            
+        </div>
+
+        <div class="box">
+            <i class="fas fa-headset"></i>
+            <h3>24 x 7 support</h3>
+            <p>always at your service</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+    <div class="product-under">
+        <h1 class="heading"> latest <span>products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <figure class="product-image">
+                    <img src="images/abc-9.png" alt="">
+                </figure>
+                <div class="content">
+                    <h3>Robes à carreaux</h3>
+                    <div class="price">39.99dt <span>89.99dt</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="shopping-cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <figure class="product-image">   
+                    <img src="images/abc-10.png" alt="">
+                </figure>
+                <div class="content">
+                    <h3>Robe floue</h3>
+                    <div class="price">29.99dt <span>59.99dt</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="shopping-cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <figure class="product-image">
+                    <img src="images/abc-11.png" alt="">
+                </figure>
+                <div class="content">
+                    <h3>Robe à l’environnement doux</h3>
+                    <div class="price">29.99dt <span>79.99dt</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="shopping-cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <figure class="product-image">
+                    <img src="images/abc-12.png" alt="">
+                </figure>
+                <div class="content">
+                    <h3>Robe jean</h3>
+                    <div class="price">25.99dt <span>49.99dt</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <figure class="product-image">
+                    <img src="images/abc-13.png" alt="">
+                </figure>
+                <div class="content">
+                    <h3>Robe à jupe</h3>
+                    <div class="price">19.99dt <span>39.99dt</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="shopping-cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <figure class="product-image">
+                    <img src="images/abc-14.png" alt="">
+                </figure>
+                <div class="content">
+                    <h3>Robe rayée</h3>
+                    <div class="price">29.99dt <span>39.99dt</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <a href="shopping-cart.html" class="btn">add to cart</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> products </h1>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/abc-2.png" class="featured-image-1" alt="">
+                <img src="images/abc-1.png" class="featured-image-1" alt="">
+            
+            </div>
+            <div class="big-image">
+                <img src="images/abc-2.png" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Robe avec ceinture</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <p>preparer vous pour étre élégante.</p>
+            <div class="price">60.99dt <span>120.99dt</span></div>
+            <a href="shopping-cart.html" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/abc-3.png" class="featured-image-2" alt="">
+                <img src="images/abc-4.png" class="featured-image-2" alt="">
+                
+            </div>
+            <div class="big-image">
+                <img src="images/abc-3.png" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>robe fourreau</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            
+            <div class="price">69.99dt <span>99.99dt</span></div>
+            <a href="shopping-cart.html" class="btn">add to cart</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/abc-5.png" class="featured-image-3" alt="">
+                <img src="images/abc-6.png" class="featured-image-3" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/abc-5.png" class="big-image-3" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Robe fleurie</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">59.99dt <span>79.99dt</span></div>
+            <a href="shopping-cart.html " class="btn">add to cart</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="image-container">
+            <div class="small-image">
+                <img src="images/abc-8.png" class="featured-image-4" alt="">
+                <img src="images/abc-7.png" class="featured-image-4" alt="">
+            </div>
+            <div class="big-image">
+                <img src="images/abc-8.png" class="big-image-4" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h4>Robe jeane</h4>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="price">29.99dt <span>39.99dt</span></div>
+            <a href="shopping-cart.html " class="btn">add to cart</a>
+        </div>
+    </div>
+
+</section>
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span> contact </span> us </h1>
+
+    <div class="row">
+
+        <form action="https://formsubmit.co/adamboukhris10@gmail.com" method="POST">
+
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box" required>
+            <input type="number" placeholder="number" class="box">
+            <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="images/intimité.png" alt="">
+        </div>
+
+    </div>  
+
+</section>
+<section class="login" id="login">
+
+    <h1 class="heading"> <span> Log </span> in </h1>
+
+    <div class="row">
+
+        <form action="https://formsubmit.co/adamboukhris10@gmail.com" method="POST">
+
+            <input type="email" placeholder="email or number" class="box" required>
+            <input type="password" placeholder="password" class="box" required>
+
+            <input type="submit" value="confirm" class="btn">
+        </form>
+    </div>
+    <div class="row"> 
+        <form action="https://formsubmit.co/adamboukhris10@gmail.com" method="POST">
+        <h1 class="heading"> <span> Resgister</h1>
+            
+            <input type="name" placeholder="name" class="box">
+            <input type="email" placeholder="email or number" class="box" required>
+            <input type="password" placeholder="password" class="box" required>
+            <input type="confirm your password" placeholder="confirm your password" class="box" required>
+
+
+
+
+            <input type="submit" value="confirm" class="btn">
+        </form>
+    </div>   
+
+     
+
+</section>
+<!-- featured section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/pic1.png" alt="">
+            <h3>samira bl haj</h3>
+            <p>un site tres utile merci intimité</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic2.png" alt="">
+            <h3>mourad chihi</h3>
+            <p>j'ai addore le service il est tres rapide</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/pic3.png" alt="">
+            <h3>faysel selmi</h3>
+            <p>un joli site plein de chose</p>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- newsletter section starts  -->
+
+<section class="newsletter">
+
+    <div class="content">
+        <h3>monthly newsletter</h3>
+        <p>We'll tell you all the news.</p>
+        <form action="">
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="submit" value="send" class="btn">
+        </form>
+    </div>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our stores</h3>
+            <p href="#">TUNISIA:</p>
+            <a href="https://www.google.com/maps/place/36%C2%B034'41.1%22N+10%C2%B051'36.2%22E/@36.5780911,10.8595208,198m/data=!3m2!1e3!4b1!4m9!1m2!2m1!1sAvenue+tayb+el+mhiri+korba!3m5!1s0x0:0x9a7632c39568f563!7e2!8m2!3d36.57809!4d10.8600682">nabeul</a>
+            <a href="https://www.google.com/maps/place/35%C2%B023'30.4%22N+11%C2%B002'05.4%22E/@35.3917789,11.0342861,201m/data=!3m2!1e3!4b1!4m5!3m4!1s0x0:0x11d0c5d78ef73a28!8m2!3d35.3917778!4d11.0348333">mahdia</a>
+        </div>
+    
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">products</a>
+            <a href="#">featured</a>
+            <a href="#">review</a>
+        </div>
+
+        
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100009021720549"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="#contact"><ion-icon name="logo-google"></ion-icon></a>
+            
+        </div>
+
+        <div class="credit">created by <span> mr. Adam boukhris </span> | all rights reserved</div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://formsubmit.co/el/{custom}" target="_blank">Email us</a>
+
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+    
+</body>
+</html>
